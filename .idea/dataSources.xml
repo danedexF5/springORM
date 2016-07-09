@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="885092908">
+    <data-source source="LOCAL" name="PostgreSQL - microblogspringorm@localhost" uuid="c1b6d5cd-f9fb-4de8-a3ee-19d421f92914">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/microblogspringorm</jdbc-url>
+    </data-source>
+  </component>
+</project>

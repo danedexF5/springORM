@@ -1,0 +1,56 @@
+<html>
+<body>
+
+<!-- Displays links at the top that allow you to filter by each category -->
+
+<a href="/">All</a>
+<a href="/?category=Furniture">Furniture</a>
+<a href="/?category=Alcohol">Alcohol</a>
+<a href="/?category=Toiletries">Toiletries</a>
+<a href="/?category=Shoes">Shoes</a>
+<a href="/?category=Food">Food</a>
+<a href="/?category=Jewelry">Jewelry</a>
+<br>
+
+
+<!--It should display the results in an HTML table so the columns line up (see screenshot below)-->
+<!--You should be able to see the name and email from the customer table, and the category, credit card, cvv,
+and date fields from the purchase table-->
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Credit Card</td>
+        <td>CVV</td>
+        <td>Date</td>
+        <td>Category</td>
+    </tr>
+
+    <br>
+
+    {{#purchases}}
+        <tr>
+            {{#customer}}
+                <td>{{name}}</td>
+                <td>{{email}}</td>
+            {{/customer}}
+            <td>{{credit_card}}</td>
+            <td>{{cvv}}</td>
+            <td>{{date}}</td>
+            <td>{{category}}</td>
+        </tr>
+
+    {{/purchases}}
+
+</table>
+
+<br>
+
+{{#showNext}}
+    <a href="/?page={{nextPage}}{{#category}}&category={{.}}{{/category}}">Next</a>
+{{/showNext}}
+
+
+</body>
+</html>

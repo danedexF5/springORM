@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microblogSpringORM.iml" filepath="$PROJECT_DIR$/.idea/modules/microblogSpringORM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microblogSpringORM_main.iml" filepath="$PROJECT_DIR$/.idea/modules/microblogSpringORM_main.iml" group="microblogSpringORM" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microblogSpringORM_test.iml" filepath="$PROJECT_DIR$/.idea/modules/microblogSpringORM_test.iml" group="microblogSpringORM" />
+    </modules>
+  </component>
+</project>
